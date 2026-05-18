@@ -85,7 +85,7 @@ $selectedCategory = intval($_GET['category'] ?? 0);
     <aside class="left-category">
         <div class="category-box">
             <a class="category-row <?= $selectedCategory===0?'active':'' ?>" href="index.php?page=home&q=<?= urlencode($_GET['q'] ?? '') ?>">
-                <span class="cat-img"><img src="asset/medicineshopelogo.jpg" alt="All"></span>
+                <span class="cat-img"><img src="asset/All.png" alt="All"></span>
                 <span>All Categories</span>
                 <b>›</b>
             </a>
